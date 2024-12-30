@@ -254,9 +254,9 @@ class IsoClusterViG(nn.Module):
                                          ##########################################################
 
                                          init_method            =   'rnd',
-                                         num_init               =   2,
-                                         max_iter               =   25,
-                                         tol                    =   1e-3,
+                                         num_init               =   4,
+                                         max_iter               =   50,
+                                         tol                    =   5e-4,
                                          vertex_conv            =   self.vertex_conv,
                                          center_conv            =   self.center_conv,
                                          use_conditional_pos    =   True,
